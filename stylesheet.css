@@ -1,0 +1,247 @@
+*{
+    text-transform: capitalize;
+}
+body {
+    font-family: "Poppins", "sans-serif";
+    background-color: hsl(244, 92%, 10%);
+    color: white;
+    margin: 0px;
+    padding: 0px;
+}
+
+/*navigation section*/
+#nav {
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    height: 62px;
+    background-color: hsl(257, 72%, 20%);
+    font-size: 28px;
+   position: relative;
+
+}
+
+
+nav ul {
+    display: flex;
+    padding: 15px;
+    font-size: 15px;
+
+}
+
+nav ul li a {
+    text-decoration: underline;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(13, 2, 25);
+    font-size: 18px;
+
+
+}
+
+nav li {
+    list-style: none;
+    margin: 0 13px;
+
+}
+
+/* first main section*/
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    margin: 80px;
+
+}
+
+.firstsection>div {
+    width: 30%
+}
+
+#leftsection {
+    margin: 23px;
+    font-size: 30px;
+
+}
+
+#rightsection {
+    margin: 23px;
+
+}
+
+.pink {
+    color: rgb(118, 122, 200);
+}
+
+#element {
+    color: rgb(128, 118, 200);
+
+}
+
+
+.anchor {
+    list-style: none;
+
+}
+#button{
+    display: flex;
+}
+
+.btn {
+    border: 2px solid rgb(39, 25, 121);
+    border-radius: 15px;
+    height: 50px;
+    width: 134px;
+    cursor: pointer;
+    color: rgb(11, 5, 42);
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.btn:hover {
+    background-color: rgb(208, 201, 247);
+
+}
+
+main {
+    margin: 10px;
+    padding: 10px;
+}
+
+/*about me section*/
+.secondsection{
+    margin: 10px;
+    padding: 10px;
+    text-align: justify;
+}
+#heading {
+    color: #0b0c32;
+    background-color: #6141ab;
+    border: 2px solid #94aaeb;
+    border-radius: 31px;
+    width: 180px;
+    text-align: center;
+    margin-top: 50px;
+
+}
+/*project section*/
+.project{
+    margin: 10px;
+    padding: 10px;
+
+}
+
+.skill {
+    margin: 10px;
+    padding: 10px;
+    
+}
+
+.imgskill {
+    margin: 10px;
+    border: 2px solid white;
+    border-radius: 50px;
+}
+
+.imgskill:hover {
+    width: 110px;
+    height: 110px;
+}
+
+.image-caption {
+    background-color: white;
+    color: balck;
+    font-size: 10px;
+}
+
+/*for contact page */
+.container {
+    border: 4px solid rgb(111, 90, 228);
+    border-radius: 50px;
+    margin: 77px;
+    padding: 54px;
+    height: 595px;
+    width: 300px;
+    margin-left: 160px;
+    background-image: url('rc.jpg');
+    background-size: cover;
+
+}
+label{
+    color:rgb(21, 21, 155);
+    font-weight: bold;
+}
+
+#fheading {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 40px;
+    margin-top: 2px;
+}
+
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+
+
+}
+
+.button {
+    height: 30px;
+    width: 350px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+#submit {
+    border: 2px solid white;
+    border-radius: 15px;
+    height: 30px;
+    width: 70px;
+}
+#submit:hover{
+    width:75px;
+    height:35px;
+    background-color: #9496eb;
+}
+
+/* for footer*/
+.footer-right {
+    text-align: center;
+    color: grey;
+}
+
+.footer {
+
+    display: flex;
+    justify-content: space-around;
+
+}
+
+footer {
+    padding: 0px;
+    margin: 0px;
+    height: 170px;
+    background-color: hsl(300, 16%, 8%);
+    padding: 34px;
+}
+footer ul li{
+    list-style: none;
+    
+}
+
+main{
+    margin: 10px;
+    padding: 10px;
+}
+footer ul li a {
+    list-style: none;
+    color: white;
+    text-decoration: none;
+}
